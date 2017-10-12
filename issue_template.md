@@ -15,19 +15,19 @@
 
 **Actual error output:** [full copy of the error(s)]
 
-### Versions
+**Versions**
 You can get the Java information from executing `java -version`.
 
-## *Who* is the bug affecting?
+** *Who* is the bug affecting?**
 <!-- Ex. All developers, Sally Supervisor, Level 1 CCs -->
 
-## *What* is affected by this bug?
+** *What* is affected by this bug?**
 <!-- Ex. problem analysis, sending messages, texter profiles -->
 
-## *When* does this occur?
+** *When* does this occur?**
 <!-- Ex. After ending a conversation, every night at 3pm, when I sign off -->
 
-## *Where* on the platform does it happen?
+** *Where* on the platform does it happen?**
 <!-- Ex. In a Supervisor's terminal/command window, In my IDE's debugger terminal, when I click on the application, etc. -->
 
-## Other Comments
+** Other Comments**
