@@ -31,3 +31,8 @@ You can get the Java information from executing `java -version`.
 <!-- Ex. In a Supervisor's terminal/command window, In my IDE's debugger terminal, when I click on the application, etc. -->
 
 **Other Comments**
+
+
+------------------------------------------
+
+*Thank you for the help.  I appreciate it.*
