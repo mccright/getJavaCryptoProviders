@@ -1,7 +1,7 @@
 # getJavaCryptoProviders
 Sometimes it is important to verify what providers are available in the current environment  
 
->The meat The meat of JCEProviders is from:  
+>The meat of JCEProviders is from:  
 >[https://stackoverflow.com/questions/3683302/how-to-find-out-what-algorithm-encryption-are-supported-by-my-jvm](https://stackoverflow.com/questions/3683302/how-to-find-out-what-algorithm-encryption-are-supported-by-my-jvm),  
 >and ListProviders is from:  
 >[http://www.java2s.com/Code/Java/Security/ListAllProviderAndItsAlgorithms.htm](http://www.java2s.com/Code/Java/Security/ListAllProviderAndItsAlgorithms.htm)  
