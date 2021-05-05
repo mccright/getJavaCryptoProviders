@@ -1,4 +1,5 @@
-# getJavaCryptoProviders
+# getJavaCryptoProviders  
+[![](https://tokei.rs/b1/github.com/mccright/getJavaCryptoProviders/?category=code)](https://github.com/mccright/getJavaCryptoProviders)  
 Sometimes it is important to verify what providers are available in the current environment  
 
 >The meat of JCEProviders is from:  
