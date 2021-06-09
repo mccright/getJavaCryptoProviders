@@ -11,13 +11,25 @@ on: #workflow_dispatch #[repository_dispatch]
     branches: 
      - master
      - main
-  workflow_dispatch:
-    [repository_dispatch]
 
-################################
-# Run Linter against code base #
-################################
-  - name: Lint Code Base
-    uses: docker://github/super-linter:v4
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Start the linter'
+        required: true
+        default: 'GithubSuperLinter'
+
+  ################################
+  # Run Linter against code base #
+  ################################
+jobs:
+  start_test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "Start ${{ github.event.inputs.name }}!"
+  
+      - name: Lint Code Base
+        uses: docker://github/super-linter:v4
     env:
       VALIDATE_ALL_CODEBASE: false
