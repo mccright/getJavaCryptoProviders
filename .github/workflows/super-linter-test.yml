@@ -15,7 +15,7 @@ on: #workflow_dispatch #[repository_dispatch]
   workflow_dispatch:
     inputs:
       name:
-        description: 'Start the linter'
+        description: 'StartGithubSuperLinter'
         required: true
         default: 'GithubSuperLinter'
 
@@ -28,8 +28,14 @@ jobs:
     steps:
       - run: |
           echo "Start ${{ github.event.inputs.name }}!"
-  
+
+# Check out source code
+      - name: Check Out Source Code
+        uses: actions/checkout@v2
+        with: 
+          fetch-depth: 2
+
       - name: Lint Code Base
         uses: docker://github/super-linter:v4
-    env:
-      VALIDATE_ALL_CODEBASE: false
+        env:
+          VALIDATE_ALL_CODEBASE: false
