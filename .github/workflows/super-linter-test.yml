@@ -12,7 +12,7 @@ on: #workflow_dispatch #[repository_dispatch]
      - master
      - main
   workflow_dispatch:
-
+    [repository_dispatch]
 
 ################################
 # Run Linter against code base #
