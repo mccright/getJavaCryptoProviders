@@ -41,5 +41,8 @@ jobs:
         uses: github/super-linter@v4
         env:
           VALIDATE_ALL_CODEBASE: false
+          FILTER_REGEX_INCLUDE: ./*.java
+          VALIDATE_JAVA:	true
+          VALIDATE_MARKDOWN:	true
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
