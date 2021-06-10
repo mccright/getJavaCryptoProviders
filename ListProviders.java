@@ -2,6 +2,7 @@
 // http://www.java2s.com/Code/Java/Security/ListAllProviderAndItsAlgorithms.htm
 // The work gets done using Security.getProviders();
 // http://download.oracle.com/javase/6/docs/api/java/security/Security.html#getProviders%28%29
+// Edit for linter
 
 import java.security.Provider;
 import java.security.Security;
